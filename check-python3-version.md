@@ -4,3 +4,13 @@ Check Python3 version:
     python3 --version
     python3 -V
 ~~~
+
+Docstring python:
+
+~~~python
+
+"""
+    Hello
+    World
+"""
+~~~
