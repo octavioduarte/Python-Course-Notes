@@ -14,3 +14,12 @@ Docstring python:
     World
 """
 ~~~
+
+
+Using `sep=`:
+
+~~~python
+    print("Hello", "Wolrd", sep="*")
+
+    #Output: Hello*Wolrd
+~~~
