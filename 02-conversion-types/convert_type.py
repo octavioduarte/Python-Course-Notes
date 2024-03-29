@@ -1,0 +1,5 @@
+print(int('3'),  type(int('3')))
+print(float('3'), type(float('3')))
+print(float(3), type(float(3)))
+print(bool(" "))
+print(bool(""))
