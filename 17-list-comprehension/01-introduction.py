@@ -18,3 +18,23 @@ an existing list, optionally filtering the elements based on a specified conditi
 
 squares = [x ** 2 for x in range(1, 6)]
 # Output: [1, 4, 9, 16, 25]
+
+
+
+
+# Using with dict
+
+bands = [
+    {"name": "Sepultura", "country": "brazil"},
+    {"name": 'Metallica', "country": 'eua'}
+]
+
+bands_with_country_capitalized = [{**band, "country": band["country"].capitalize()} for band in bands]
+print(*bands_with_country_capitalized, sep='\n')
+
+"""
+    output
+    
+    {'name': 'Sepultura', 'country': 'Brazil'}
+    {'name': 'Metallica', 'country': 'Eua'}
+"""
